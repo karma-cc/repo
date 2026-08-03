@@ -1,15 +1,15 @@
 Package: com.karma.wechatimagecopy
 Name: WechatImageCopy
-Version: 0.4.8
+Version: 0.4.9
 Architecture: iphoneos-arm64
 Maintainer: karma-cc
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
 Section: Tweaks
-Filename: debs/com.karma.wechatimagecopy_0.4.8_iphoneos-arm64.deb
-Size: 15368
-MD5sum: 65753f8dd538e14af5e6ff0058ce0e30
-SHA1: 8094b7929cc1656d1a770cb9e08fe9d80467058c
-SHA256: 8d6a95ee079fa14ba4e436b0afd6e36e7dbb5b1f6aea5c0c53b6cbe10f405ec2
+Filename: debs/com.karma.wechatimagecopy_0.4.9_iphoneos-arm64.deb
+Size: 15470
+MD5sum: 62e5d4e64b6affaf55666e8bd8bf716e
+SHA1: da77509f260f69f3816d08a3f0977bc560383cc2
+SHA256: b6a2ff003e46b91a3a88ed1cb201b75d1425db59b697cb165feff6572a0e0769
 Description: 微信中长按图片或表情进行复制，通过手势呼出菜单，以及在微信内进入设置入口。
  QQ：2052700050
 
