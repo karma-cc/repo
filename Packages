@@ -1,4 +1,5 @@
 Package: com.karma.example
+Name: Example Tweak
 Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: karma-cc <karma-cc@users.noreply.github.com>
@@ -13,6 +14,7 @@ Description: 示例包，用于验证源是否可用。
  添加本源后你会看到这个包。安装没有实际效果，可以放心删除。
 
 Package: com.karma.wechatimagecopy
+Name: WechatImageCopy
 Version: 0.4.7
 Architecture: iphoneos-arm64e
 Maintainer: karma-cc
