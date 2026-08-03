@@ -1,18 +1,3 @@
-Package: com.karma.example
-Name: Example Tweak
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: karma-cc <karma-cc@users.noreply.github.com>
-Depends: firmware (>= 13.0)
-Section: Tweaks
-Filename: debs/com.karma.example_1.0.0_iphoneos-arm64.deb
-Size: 652
-MD5sum: 83260ca5c0ec35230ca34436afda618c
-SHA1: b60e868ab70498efe06246816e259eab40a889cd
-SHA256: ae21370666cd503acd1b2a5b1fe623f44df378c992e525878ae9fab6d0ae0940
-Description: 示例包，用于验证源是否可用。
- 添加本源后你会看到这个包。安装没有实际效果，可以放心删除。
-
 Package: com.karma.wechatimagecopy
 Name: WechatImageCopy
 Version: 0.4.7
