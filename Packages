@@ -13,14 +13,14 @@ Description: 示例包，用于验证源是否可用。
  添加本源后你会看到这个包。安装没有实际效果，可以放心删除。
 
 Package: com.karma.wechatimagecopy
-Version: 0.4.0
+Version: 0.4.1
 Architecture: iphoneos-arm64e
 Maintainer: karma-cc
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
 Section: Tweaks
-Filename: debs/com.karma.wechatimagecopy_0.4.0_iphoneos-arm64e.deb
-Size: 13822
-MD5sum: 01d521352ec5455f9fbc70d2e5a04351
-SHA1: eefc7f81070e9cf6c8cb7b477da8118c39c71c51
-SHA256: 8bbd96c3f249e2096e67a867250aa52c765235cec154210d42dc702d9b9d6317
+Filename: debs/com.karma.wechatimagecopy_0.4.1_iphoneos-arm64e.deb
+Size: 13492
+MD5sum: 51d159aa5e95f14b658fc0158ae0bccf
+SHA1: 37572d90fe4373401b12357b48864e54050fa74f
+SHA256: fce4ae1825094c9ee18a8df80b2523a94a0992505d032afbd99f88cd7f0b9617
 Description: 微信长按图片/表情复制，手势呼出菜单，微信内设置入口
