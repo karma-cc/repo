@@ -5,14 +5,14 @@ Version: 1.0
 Codename: stable
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Date: Mon, 03 Aug 2026 13:24:59 UTC
+Date: Mon, 03 Aug 2026 13:31:51 UTC
 Description: karma-cc 越狱源
 MD5Sum:
- e4a701a4e256af46181225fec083ec30             1053 Packages
- 02449f0832410d1a16b5da7f00aad13d              766 Packages.bz2
+ e72e17706a30a25b124552c4f7706359             1053 Packages
+ 00d6da0fdeb1615c9f63c9260c72fa3e              777 Packages.bz2
 SHA1:
- 769f1608f3ffd3a5c75b08ef9e7a6e64004eb7b8             1053 Packages
- 5b3278d135630101bbe8371b741231432258be39              766 Packages.bz2
+ f9782704624dc279c566c05ac10127df64f4b51c             1053 Packages
+ d16ef5f2cd7980409afe356c3da50b8eff4c0b5e              777 Packages.bz2
 SHA256:
- 6a9057ad599d75060f2774f98dfb82e327969ef332e45b03c14b20d5ac9e89b6             1053 Packages
- baecf3b7df73b1171db875040f5fca487d45904f4142a8f00cc32341974725df              766 Packages.bz2
+ 5b7cca944f9751e1cd7a6f24bd9389ed96fc5ec789670220639918e72ad61718             1053 Packages
+ 53ef1de11c7adf768ea73acbd63d0ba833aeb9693f438717bfee518b6fe61f9c              777 Packages.bz2
