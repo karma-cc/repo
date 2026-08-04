@@ -1,15 +1,15 @@
 Package: com.karma.imagesaver
 Name: KCImageSaver
-Version: 0.2.11
+Version: 0.2.12
 Architecture: iphoneos-arm64e
 Maintainer: karma-cc
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
 Section: Tweaks
-Filename: debs/com.karma.imagesaver_0.2.11_iphoneos-arm64e.deb
-Size: 24070
-MD5sum: eb14d40639eaf5f1ae9d97201e74c0cd
-SHA1: b2f175fddad67e010cd593853741a791abcf5261
-SHA256: 29a232532db1b8acd110848568947a837652361431cbd395a29d206048a08aca
+Filename: debs/com.karma.imagesaver_0.2.12_iphoneos-arm64e.deb
+Size: 24786
+MD5sum: caf7c2eb04b2ae3c1e2d7b766c00b9c9
+SHA1: 5c41abf916f5eaffb9bb2c05edcd8ef7657dd840
+SHA256: cf00fc76f4301b56bb6d8da7ae6df3c640fbe1d809d844123ea2d6b1f7f69872
 Description: 全局图片操作插件：URL scheme 触发后全屏冻结选图，点击图片弹出「复制 / 保存到相册」。
  触发：任意 App 打开 kcimage://enable 进入选图模式 / kcimage://disable 退出 / kcimage://toggle 切换 / kcimage://settings 打开设置 / kcimage://debug 查看调试日志。
  入口：设置 → KCImageSaver。由 karma-cc 发布。
