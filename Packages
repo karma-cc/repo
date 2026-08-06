@@ -59,3 +59,18 @@ SHA1: bb9bf66e79a4d89f064e091c4fa9245359842d54
 SHA256: b291480f8f3350e02d953cea268a0499a281453ea95220bda2ac1d2d67e7e8da
 Description: 微信中长按图片或表情进行复制，通过手势呼出菜单，以及在微信内进入设置入口。
  QQ：2052700050
+
+Package: com.karma.wechatimagecopy
+Name: WechatImageCopy
+Version: 0.4.13
+Architecture: iphoneos-arm64e
+Maintainer: karma-cc
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Section: Tweaks
+Filename: debs/com.karma.wechatimagecopy_0.4.13_iphoneos-arm64e.deb
+Size: 16556
+MD5sum: 471ea36294ae9f9a010e0dd6bcbbe3b2
+SHA1: 9fe14cf73da85f59ba458a4090929f95259f4f6e
+SHA256: 130ad387e1ed6bfca76619921dd88fdd99f66a2c45ea186912f0929ef79095c4
+Description: 微信中长按图片或表情进行复制，通过手势呼出菜单，以及在微信内进入设置入口。
+ QQ：2052700050
