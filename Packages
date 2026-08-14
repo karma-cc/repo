@@ -74,3 +74,17 @@ SHA1: 9fe14cf73da85f59ba458a4090929f95259f4f6e
 SHA256: 130ad387e1ed6bfca76619921dd88fdd99f66a2c45ea186912f0929ef79095c4
 Description: 微信中长按图片或表情进行复制，通过手势呼出菜单，以及在微信内进入设置入口。
  QQ：2052700050
+
+Package: com.nx.stheno
+Name: Stheno
+Version: 0.1.12-2~backgroundreuse1
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Depends: dev.theos.orion (>= 1.0.0), mobilesubstrate, firmware (>= 16.0), firmware (<= 17.3.1)
+Section: Tweaks
+Filename: debs/com.nx.stheno_0.1.12-2~backgroundreuse1_iphoneos-arm64.deb
+Size: 533068
+MD5sum: 14ccf770018939d79ebf4ff343738c8c
+SHA1: 83295984d4c7e226bc2c5e9fa63cf80e440c4f38
+SHA256: 76deb5800bc57b2c424de17dbeb46ad82fb03a50fc0a743b21e4ed08aed17c86
+Description: stheno分屏插件，适配16.0-17.3.1。
