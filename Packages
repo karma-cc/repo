@@ -30,6 +30,20 @@ Description: 全局图片操作插件：URL scheme 触发后全屏冻结选图�
  触发：任意 App 打开 kcimage://enable 进入选图模式 / kcimage://disable 退出 / kcimage://toggle 切换 / kcimage://settings 打开设置 / kcimage://debug 查看调试日志。
  入口：设置 → KCImageSaver。由 karma-cc 发布。
 
+Package: com.karma.qqfullscreenfix
+Name: QQFullscreenFix
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: QAQ
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Section: Tweaks
+Filename: debs/com.karma.qqfullscreenfix_1.0.0_iphoneos-arm64e.deb
+Size: 11802
+MD5sum: f983d69375ad057ba02bc5d0801fca44
+SHA1: 56ae52e0cc8e66cc8f4419196556c3f10201cdb4
+SHA256: 25db372b28e54173b5d3da9ddcb2684645ca9921d0e8cf7e885b46171872dedf
+Description: QQ 全屏黑边修复，旨在解决各种分屏修改 QQ 比例的行为导致全屏窗口下出现底部黑框的状况，由 QAQ 发布。反馈问题QQ：2052700050
+
 Package: com.karma.wechatimagecopy
 Name: WechatImageCopy
 Version: 0.4.12
