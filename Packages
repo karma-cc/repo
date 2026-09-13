@@ -30,6 +30,21 @@ Description: 全局图片操作插件：URL scheme 触发后全屏冻结选图�
  触发：任意 App 打开 kcimage://enable 进入选图模式 / kcimage://disable 退出 / kcimage://toggle 切换 / kcimage://settings 打开设置 / kcimage://debug 查看调试日志。
  入口：设置 → KCImageSaver。由 karma-cc 发布。
 
+Package: com.karma.myrtlekeyboardfix
+Name: Myrtle Keyboard Fix
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: karma
+Author: karma
+Depends: mobilesubstrate, firmware (>= 15.0)
+Section: Tweaks
+Filename: debs/com.karma.myrtlekeyboardfix_0.1.0_iphoneos-arm64e.deb
+Size: 19522
+MD5sum: a20257793e190a1345a99554ed6105af
+SHA1: b83a11da1d166a31e08838897bd6a9ff3c49df3f
+SHA256: e9dcdc88634e52996b704896b441a7f30597ad6cf60cc6a0b0e0bf55694513ff
+Description: 修复 Myrtle 分屏/悬浮窗下第三方键盘（微信输入法）按键震动失效的问题。原生体验更跟手。bug 反馈QQ：2052700050
+
 Package: com.karma.myrtleswitcherfix
 Name: Myrtle Switcher Fix
 Version: 0.5.1
