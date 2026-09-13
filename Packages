@@ -72,6 +72,20 @@ SHA1: 38400658b6d99115350207e92c0b251de6d36230
 SHA256: 76b29d92d24bcc6db7f99449a5632bb1f854775115ac2b3e1294f03865c8d5ba
 Description: QQ 全屏黑边修复，旨在解决各种分屏修改 QQ 比例的行为导致全屏窗口下出现底部黑框的状况，由 QAQ 发布。反馈问题QQ：2052700050
 
+Package: com.karma.qqfullscreenfix
+Name: QQFullscreenFix
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: QAQ
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Section: Tweaks
+Filename: debs/com.karma.qqfullscreenfix_2.0.1_iphoneos-arm64e.deb
+Size: 10982
+MD5sum: 954eac2891b008e402d6b54afb3ea389
+SHA1: ac5b5dd933083e291220237bd71d0d0bf3f29694
+SHA256: 48aaab3999e1f0f40a4ef5b6cc5e0d4c4c8b7d9f63fac5edb4b5d5050be4866c
+Description: QQ 全屏黑边修复，旨在解决各种分屏修改 QQ 比例的行为导致全屏窗口下出现底部黑框的状况，由 QAQ 发布。反馈问题QQ：2052700050
+
 Package: com.karma.wechatimagecopy
 Name: WechatImageCopy
 Version: 0.4.12
