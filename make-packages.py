@@ -65,8 +65,9 @@ def main():
         c["SHA256"] = sha(raw, "sha256")
         c["Section"] = c.get("Section", "Tweaks")
         c["Depends"] = c.get("Depends", "")
-        order = ["Package", "Name", "Version", "Architecture", "Maintainer", "Depends",
-                 "Section", "Filename", "Size", "MD5sum", "SHA1", "SHA256", "Description"]
+        order = ["Package", "Name", "Version", "Architecture", "Maintainer", "Author",
+                 "Depends", "Section", "Filename", "Size", "MD5sum", "SHA1", "SHA256",
+                 "Description"]
         lines = []
         for k in order:
             if k in c:
