@@ -45,6 +45,21 @@ SHA1: b83a11da1d166a31e08838897bd6a9ff3c49df3f
 SHA256: e9dcdc88634e52996b704896b441a7f30597ad6cf60cc6a0b0e0bf55694513ff
 Description: 修复 Myrtle 分屏/悬浮窗下第三方键盘（微信输入法）按键震动失效的问题。原生体验更跟手。bug 反馈QQ：2052700050
 
+Package: com.karma.myrtlekeyboardfix
+Name: Myrtle Keyboard Fix
+Version: 0.1.1
+Architecture: iphoneos-arm64e
+Maintainer: karma
+Author: karma
+Depends: mobilesubstrate, firmware (>= 15.0)
+Section: Tweaks
+Filename: debs/com.karma.myrtlekeyboardfix_0.1.1_iphoneos-arm64e.deb
+Size: 19624
+MD5sum: 6d36873ed682f9481030d71e67579721
+SHA1: 505da948810983a672517db4a25a7b5e828220bc
+SHA256: 78bd6325a8f005f5ef373bc2a8b06479b1f45e1a68fff76ed95eeaf25497645d
+Description: 修复 Myrtle 分屏/悬浮窗下第三方键盘（微信输入法）按键震动失效的问题。原生体验更跟手。bug 反馈QQ：2052700050
+
 Package: com.karma.myrtleswitcherfix
 Name: Myrtle Switcher Fix
 Version: 0.5.1
