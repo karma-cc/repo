@@ -30,6 +30,22 @@ Description: 全局图片操作插件：URL scheme 触发后全屏冻结选图�
  触发：任意 App 打开 kcimage://enable 进入选图模式 / kcimage://disable 退出 / kcimage://toggle 切换 / kcimage://settings 打开设置 / kcimage://debug 查看调试日志。
  入口：设置 → KCImageSaver。由 karma-cc 发布。
 
+Package: com.karma.myrtlecamerafix
+Name: Myrtle Camera Fix
+Version: 1.4.0
+Architecture: iphoneos-arm64e
+Maintainer: karma
+Author: karma
+Depends: mobilesubstrate, firmware (>= 15.0)
+Section: Tweaks
+Filename: debs/com.karma.myrtlecamerafix_1.4.0_iphoneos-arm64e.deb
+Size: 10086
+MD5sum: d3f0a9dbff13d91b1b67486dfd19bbe6
+SHA1: 902b2324007be4d63b65f0da4ed7810a3017ccf4
+SHA256: e39605305e1659a7b471f4539d5ab6d467ccce414d25e3d80e53b76544817fc7
+Description: 修复 Myrtle 分屏插件导致相机退出后仍在后台占用（状态栏绿点常亮、发热耗电）的问题。
+ 在 mediaserverd 侧把相机 App 的后台相机访问判定纠正为系统默认值（仅影响相机 App，其它 App 透传）。
+
 Package: com.karma.myrtlekeyboardfix
 Name: Myrtle Keyboard Fix
 Version: 0.1.0
