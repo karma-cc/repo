@@ -85,11 +85,11 @@ Author: karma
 Depends: mobilesubstrate, firmware (>= 15.0)
 Section: Tweaks
 Filename: debs/com.karma.myrtlekeyboardfix_0.4.33_iphoneos-arm64e.deb
-Size: 17248
-MD5sum: 7e090091b2f3554b9e39b01f831aa3ab
-SHA1: b47ea674fdc75ca389a3ef2fac5774f0371bb247
-SHA256: 70159fe8db90a72f94bd1bed8f14f8a57461aee1475038f0d5cfc2607af21924
-Description: 修复 Myrtle 分屏/悬浮窗下第三方键盘（微信输入法）按键震动失效的问题。原生体验更跟手。bug 反馈QQ：2052700050
+Size: 17340
+MD5sum: dec1b73d1f39125f71c2ac465905e8eb
+SHA1: 0ec2c8ba540ddf91344a1850ce4c59c1ef33494a
+SHA256: be90a114b2fe65e21f6757ff5bfd843633714b513d17989065072d23b8215a40
+Description: 修复 Myrtle 分屏/悬浮窗下第三方键盘按键震动失效的问题。myrtle 插件的第三方键盘震动有延迟，体验差，此插件让原生震动体验更跟手。（使用时需要禁止第三方输入法的注入，防止 myrtle 干扰震动） bug 反馈QQ：2052700050
 
 Package: com.karma.myrtleswitcherfix
 Name: Myrtle Switcher Fix
