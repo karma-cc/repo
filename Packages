@@ -30,6 +30,21 @@ Description: 全局图片操作插件：URL scheme 触发后全屏冻结选图�
  触发：任意 App 打开 kcimage://enable 进入选图模式 / kcimage://disable 退出 / kcimage://toggle 切换 / kcimage://settings 打开设置 / kcimage://debug 查看调试日志。
  入口：设置 → KCImageSaver。由 karma-cc 发布。
 
+Package: com.karma.keyboardlevelfix
+Name: Keyboard Level Fix
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: karma
+Author: karma
+Depends: mobilesubstrate, firmware (>= 15.0)
+Section: Tweaks
+Filename: debs/com.karma.keyboardlevelfix_0.1.0_iphoneos-arm64e.deb
+Size: 19302
+MD5sum: 37e33ecb186d6751cdcf8b42048b6e20
+SHA1: 11063bd3f5cf14d68d5f6c25ec54d3e59cc71b8e
+SHA256: 4e43a7ac35d49e6fa17b168e33229001618e1fc50bfb0329bbd1a5c3de046142
+Description: 单独调整 SpringBoard 里键盘窗口的显示层级（与 myrtle 无关，所有场景生效）。可配置：开关 / 调整模式（精确设定、上限只压不抬、下限只抬不压）/ 目标层级数值。用于解决键盘遮挡上层 UI（如 myrtle 分屏图标手柄层 MyrtleWindow=1051）或键盘被其它窗口遮挡的问题。 QQ：2052700050
+
 Package: com.karma.myrtlecamerafix
 Name: Myrtle Camera Fix
 Version: 1.4.0
