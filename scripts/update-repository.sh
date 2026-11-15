@@ -32,21 +32,20 @@ else
   : > "$work_dir/Packages"
 fi
 
-# A package with no Section is filed under nothing; refuse it here.
+# Older packages may lack Section. Supply a category in the published index.
 awk '
-  BEGIN { RS = ""; FS = "\n" }
+  BEGIN { RS = ""; FS = "\n"; OFS = "\n"; ORS = "\n\n" }
   {
-    package = ""; section = ""
+    has_section = 0
     for (field = 1; field <= NF; field++) {
-      if ($field ~ /^Package: /) package = substr($field, 10)
-      if ($field ~ /^Section: /) section = substr($field, 10)
+      if ($field ~ /^Section:[[:space:]]*$/) $field = "Section: Tweaks"
+      if ($field ~ /^Section:[[:space:]]*[^[:space:]]/) has_section = 1
     }
-    if (package != "" && section == "") {
-      printf "Package %s has no Section field, which package managers file it by.\n", package > "/dev/stderr"
-      exit 1
-    }
+    if (!has_section) $(NF + 1) = "Section: Tweaks"
+    print
   }
-' "$work_dir/Packages"
+' "$work_dir/Packages" > "$work_dir/Packages.normalized"
+mv "$work_dir/Packages.normalized" "$work_dir/Packages"
 
 xz -9e -c "$work_dir/Packages" > "$work_dir/Packages.xz"
 mkdir -p "$work_dir/indexes"
