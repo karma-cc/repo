@@ -32,16 +32,31 @@ else
   : > "$work_dir/Packages"
 fi
 
-# Older packages may lack Section. Supply a category in the published index.
-awk '
+# Fill in missing package sections and advertise native depictions hosted by this source.
+awk -v source_url="${SOURCE_URL:-}" '
+  BEGIN { sub(/\/$/, "", source_url) }
   BEGIN { RS = ""; FS = "\n"; OFS = "\n"; ORS = "\n\n" }
   {
     has_section = 0
+    has_native_depiction = 0
+    package_id = ""
     for (field = 1; field <= NF; field++) {
       if ($field ~ /^Section:[[:space:]]*$/) $field = "Section: Tweaks"
       if ($field ~ /^Section:[[:space:]]*[^[:space:]]/) has_section = 1
+      if (tolower($field) ~ /^sileodepiction:[[:space:]]*[^[:space:]]/) has_native_depiction = 1
+      if ($field ~ /^Package:[[:space:]]+/) {
+        package_id = $field
+        sub(/^Package:[[:space:]]+/, "", package_id)
+      }
     }
     if (!has_section) $(NF + 1) = "Section: Tweaks"
+    if (!has_native_depiction && source_url != "" && package_id ~ /^[a-z0-9][a-z0-9.+-]*$/) {
+      depiction = "depictions/" package_id "/depiction.json"
+      if ((getline line < depiction) > 0) {
+        $(NF + 1) = "SileoDepiction: " source_url "/" depiction
+      }
+      close(depiction)
+    }
     print
   }
 ' "$work_dir/Packages" > "$work_dir/Packages.normalized"
